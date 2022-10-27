@@ -206,6 +206,9 @@
     footer .top .left p, footer .top .right .right_ul li> a, footer .top .right .right_ul .sub a, footer .bottom p, footer .bottom button{
         font-size: 2vw;
     }
+    footer .top .right .right_ul .sub li{
+        margin: .5vw 0;
+    }
     footer .bottom{
         flex-direction: column;
         justify-content: flex-start;
