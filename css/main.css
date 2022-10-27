@@ -569,7 +569,7 @@ section.news{}
     position: absolute;
     right: -30px;
     top: 35%;
-    background-image: url(/img/slide_next.png);
+    background-image: url(../img/slide_next.png);
     background-size: cover;
 }
 
