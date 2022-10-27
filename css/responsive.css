@@ -1,0 +1,227 @@
+@media (max-width: 1280px){
+    .text_visual h3{
+        font-size: 5vw;
+        padding-bottom: 0.1vw;
+    }
+    .text_visual h2{
+        font-size: 5vw;
+        font-weight: 700;
+    }
+    .text_visual h2:after{
+        top: 10vw;
+
+    }
+    .text_visual p{
+        font-size: 2.3vw;
+    }
+
+    .interview .inner .content .interview{
+        margin-left: 5%;
+
+    }
+    .interview .inner .title h2 {
+        font-size: 5.5vw;
+        padding-bottom: 1vw;
+    }
+    .interview .inner .content .text span.interviewee{
+        font-size: 1.8vw;
+        padding-bottom: 2.5vw;
+    }
+    .interview .inner .content .text h3{
+        font-size: 3.3vw;
+        padding-bottom: 5vw;
+    }
+    .interview .inner .content .text span.job{
+        font-size: 1.4vw;
+        margin-bottom: 2vw;
+    }
+    .interview .inner .content .text h4{
+        font-size: 2.6vw;
+        margin-bottom: 2vw;
+    }
+    .interview .inner .content .text p.comment{
+        padding-left: 1.8vw;
+        font-size: 1.4vw;
+    }
+
+    .news .title h2, .careers .title h2{
+        font-size: 6.5vw;
+    }
+    .news .news_card .text_box h4{
+        font-size: 1.1vw;
+    }
+    .news .news_card .text_box span{
+        font-size: 1.1vw;
+    }
+    .news .news_card .text_box h3{
+        font-size: 2vw;
+    }
+    .news .news_card .text_box p{
+        font-size: 1.1vw;
+    }
+
+    .careers .content .text{
+        bottom: -5.5vw;
+        padding-top: 4vw;
+        padding-right: 5vw;
+    }
+    .careers .content .text p{
+        font-size: 2.6vw;
+    }
+
+    footer{
+        padding-top: 4vw;
+    }
+    footer .top .left img{
+        width: 8vw;
+    }
+    footer .top .left p, footer .top .right .right_ul li> a, footer .top .right .right_ul .sub a, footer .bottom p, footer .bottom button{
+        font-size: 1.1vw;
+    }
+}
+
+@media (max-width: 992px){
+
+    header .navbar >div{
+        background-color: #fff;
+
+    }
+    header .navbar .menubar{
+        position: relative;
+        left: initial;
+        transform: initial;
+        width: 100%;
+        padding: 20px 0;
+        border-bottom: 1px solid #ccc;
+    }
+    header .navbar .menubar > ul > li{
+        margin: 10px 5px;
+    }
+    header .lang{
+        right: 100px;
+    }
+    header .sub{
+        position: relative;
+        top: initial;
+    
+    }
+    .navbar-nav{
+    }
+}
+
+@media (max-width: 768px){
+    .interview .inner .content .interview{
+        margin-left: initial;
+        margin: 0 auto;
+    }
+    .interview .inner .content .photo{
+        width: 100%;
+        padding-right: 0;
+        text-align: center;
+        margin-right:0;
+        padding-left: 0;
+    }
+
+    .interview .inner .title h2 {
+        font-size: 6.5vw;
+        padding-bottom: 1vw;
+    }
+    .interview .inner .content .text span.interviewee{
+        font-size: 2.8vw;
+        padding-bottom: 2.5vw;
+    }
+    .interview .inner .content .text h3{
+        font-size: 4.3vw;
+        padding-bottom: 5vw;
+    }
+    .interview .inner .content .text span.job{
+        font-size: 2.4vw;
+        margin-bottom: 2vw;
+    }
+    .interview .inner .content .text h4{
+        font-size: 3.6vw;
+        margin-bottom: 2vw;
+    }
+    .interview .inner .content .text p.comment{
+        padding-left: 1.8vw;
+        font-size: 2.4vw;
+    }
+    .interview .inner .content button{
+        right: 50px;
+        bottom: -15vw;
+    }
+
+
+    .news .news_list .news_card{
+
+    }
+    .news .news_list .news_card:nth-of-type(1){
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .news .news_list .news_card:nth-of-type(2){
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .news .news_list .news_card:nth-of-type(3){
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .news .title h2, .careers .title h2{
+        font-size: 6.5vw;
+    }
+    .news .news_card .text_box{
+        margin-bottom: 40px;
+    }
+
+    .news .news_card .text_box h4{
+        font-size: 2.3vw;
+    }
+    .news .news_card .text_box span{
+        font-size: 2.3vw;
+    }
+    .news .news_card .text_box h3{
+        font-size: 3vw;
+    }
+    .news .news_card .text_box p{
+        font-size: 2.3vw;
+    }
+
+    .news .more, .careers .more{
+        font-size: 3vw;
+        margin-right: 4.5vw;
+        right: 30px;
+        top: 2vw;
+    }
+
+    footer{
+        padding-top: 2vw;
+    }
+    footer .top .right{
+        flex-wrap: wrap;
+    }
+    footer .top .left img{
+        width: 16vw;
+    }
+    footer .top .left p, footer .top .right .right_ul li> a, footer .top .right .right_ul .sub a, footer .bottom p, footer .bottom button{
+        font-size: 2vw;
+    }
+    footer .bottom{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 576px){
+    header .lang{
+        display: none;
+    }
+    .text_visual p{
+        font-size: 14px;
+
+    }
+    .text_visual img{
+        margin-top: 30px;
+    }
+}
