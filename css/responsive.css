@@ -101,6 +101,7 @@
         right: 100px;
     }
     header .sub{
+        margin-top: 10px;
         position: relative;
         top: initial;
     
@@ -203,6 +204,9 @@
     footer .top .left img{
         width: 16vw;
         min-width: 100px;
+    }
+    footer .bottom .site{
+        margin-top: 10px;
     }
     footer .top .left p, footer .top .right .right_ul li> a, footer .top .right .right_ul .sub a, footer .bottom p, footer .bottom button{
         font-size: 2vw;
