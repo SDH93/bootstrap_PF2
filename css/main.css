@@ -145,7 +145,7 @@ header .sub{
 }
 
 header .sub li{
-    transform: translate(-20px);
+    transform: translate(10px);
 
 }
 header .sub a {
