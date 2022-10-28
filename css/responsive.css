@@ -202,6 +202,7 @@
     }
     footer .top .left img{
         width: 16vw;
+        min-width: 100px;
     }
     footer .top .left p, footer .top .right .right_ul li> a, footer .top .right .right_ul .sub a, footer .bottom p, footer .bottom button{
         font-size: 2vw;
@@ -226,5 +227,14 @@
     }
     .text_visual img{
         margin-top: 30px;
+    }
+    footer .top .right .right_ul > li{
+        margin: 5px;
+    }
+    footer .top .right .right_ul .sub li{
+        margin: 0;
+    }
+    footer .top .right .right_ul li> a,footer .top .right .right_ul .sub a{
+        font-size: 10px;
     }
 }
